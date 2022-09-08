@@ -1,0 +1,42 @@
+{
+  "name": "second-brain-tag-syncer",
+  "version": "0.1.0",
+  "description": "Sync tags in your second brain apps",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zvonimirfras/second-brain-tag-syncer.git"
+  },
+  "keywords": [
+    "second-brain",
+    "readwise",
+    "reader",
+    "logseq",
+    "roam",
+    "roam-research",
+    "roamresearch",
+    "research",
+    "brain",
+    "tag",
+    "tags",
+    "sync",
+    "synchronize",
+    "syncer"
+  ],
+  "author": "Zvonimir Fras",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zvonimirfras/second-brain-tag-syncer/issues"
+  },
+  "homepage": "https://github.com/zvonimirfras/second-brain-tag-syncer#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.2"
+  }
+}
