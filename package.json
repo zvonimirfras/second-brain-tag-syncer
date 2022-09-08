@@ -4,7 +4,7 @@
   "description": "Sync tags in your second brain apps",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts",
+    "start": "ts-node src/index.ts",
 	"lint": "eslint --ext .js,.ts 'src/**'",
     "lint:fix": "eslint --ext .js,.ts 'src/**' --fix",
     "test": "echo \"Error: no test specified\" && exit 1"

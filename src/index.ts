@@ -1,1 +1,3 @@
-console.log('works!');
+console.log(process.argv);
+
+export {};
