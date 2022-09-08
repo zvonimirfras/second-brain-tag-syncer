@@ -5,6 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "start": "ts-node index.ts",
+	"lint": "eslint --ext .js,.ts 'src/**'",
+    "lint:fix": "eslint --ext .js,.ts 'src/**' --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -34,9 +36,12 @@
   },
   "homepage": "https://github.com/zvonimirfras/second-brain-tag-syncer#readme",
   "devDependencies": {
-    "@types/node": "^18.7.16",
-    "ts-node": "^10.9.1",
-    "tslib": "^2.4.0",
-    "typescript": "^4.8.2"
+    "@types/node": "18.7.16",
+    "ts-node": "10.9.1",
+    "tslib": "2.4.0",
+    "typescript": "4.8.2",
+	"@typescript-eslint/eslint-plugin": "5.36.2",
+    "@typescript-eslint/parser": "5.36.2",
+    "eslint": "8.15.0"
   }
 }
